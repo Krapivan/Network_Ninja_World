@@ -12,6 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7bf1829eefaa9342803d4e1956b786f, type: 3}
   m_Name: inf_db
   m_EditorClassIdentifier: 
-  _user_login_json: {fileID: 4900000, guid: 785d66bf5cc39cd48b076bc77724bd57, type: 3}
-  _user_resource_json: {fileID: 4900000, guid: 33e6810eddb76264cb32f115184e4474, type: 3}
-  _user_heroes_json: {fileID: 4900000, guid: ab83d4988471d7945bb03e23f6d099e3, type: 3}
+  _user_backend_sc: {fileID: 0}
+  _commands:
+    _connection_command: {fileID: 0}
+    _general_command: {fileID: 0}
+    _hero_command: {fileID: 0}
+    _rune_command: {fileID: 0}
+  _managers:
+    _general_manager: {fileID: 0}
+    _hero_manager: {fileID: 0}
+    _rune_manager: {fileID: 0}
+    _story_manager: {fileID: 0}
+  _database:
+    _user_general_db: {fileID: 11400000, guid: 8c0ad7702d3f22446852e52fd2518195, type: 2}
+    _user_hero_db: {fileID: 11400000, guid: fd6655ee17d52e245ab1fdb3df35fc3c, type: 2}
+    _user_rune_db: {fileID: 11400000, guid: 7f3c743996a9b1d41ba4f8fa8467975b, type: 2}
+    _user_story_db: {fileID: 11400000, guid: 04320968cfa11424f8730dffb3eed946, type: 2}
+    _general_db: {fileID: 11400000, guid: 202a7909375878d42b90473dbc9f6130, type: 2}
+    _hero_db: {fileID: 11400000, guid: 675d84c25a9db5249b1028c97cfe6371, type: 2}
+    _rune_db: {fileID: 11400000, guid: 2cb570de38819b641b4ebda706dd7747, type: 2}
+    _story_db: {fileID: 11400000, guid: 535efd65b7acc254b91b88645aa9da38, type: 2}

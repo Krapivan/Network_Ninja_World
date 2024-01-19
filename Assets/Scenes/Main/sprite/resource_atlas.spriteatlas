@@ -48,6 +48,11 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b51888724a83c53428bf7f5d678a97af: 21300000
+    - e2394f27106ed2d4fa0e052140a4422a: 21300000
+    - f5ef277989271614f946d61ac08f32a5: 21300000
+    - 795ddbdf97bf8824d9284349320794c4: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: b51888724a83c53428bf7f5d678a97af, type: 3}

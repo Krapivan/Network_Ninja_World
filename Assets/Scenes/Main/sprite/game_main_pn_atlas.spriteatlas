@@ -48,6 +48,19 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 51ce4841d7ffd1e459c5f3f65e4a5b86: 21300000
+    - 774b37d2e2d220e4ebec763711f5a51c: 21300000
+    - bb24e5135b473c949ac770691031f51a: 21300000
+    - 16de2cd339e30cb45a064ff71275e44f: 21300000
+    - f05767f59f025fd4cbe41d569a7a2c1c: 21300000
+    - 2b3b94764f068d04287acdd9b550dc5d: 21300000
+    - b8ebb5e9d3900b04f80575a3aecfe430: 21300000
+    - e085fbe9ef8577242a99947ad58f6db7: 21300000
+    - ca1f57acfe162044cb2227088847cd13: 21300000
+    - d6494cbc0b462dc4fb429d179be30d8d: 21300000
+    - 88a33c4f6d6ff7941907f0468bac63b9: 21300000
+    - e8193baff9db5e44abac1eb15121fc40: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 51ce4841d7ffd1e459c5f3f65e4a5b86, type: 3}
@@ -55,6 +68,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: bb24e5135b473c949ac770691031f51a, type: 3}
   - {fileID: 21300000, guid: 16de2cd339e30cb45a064ff71275e44f, type: 3}
   - {fileID: 21300000, guid: f05767f59f025fd4cbe41d569a7a2c1c, type: 3}
+  - {fileID: 21300000, guid: 2b3b94764f068d04287acdd9b550dc5d, type: 3}
   - {fileID: 21300000, guid: b8ebb5e9d3900b04f80575a3aecfe430, type: 3}
   - {fileID: 21300000, guid: e085fbe9ef8577242a99947ad58f6db7, type: 3}
   - {fileID: 21300000, guid: ca1f57acfe162044cb2227088847cd13, type: 3}
@@ -67,6 +81,7 @@ SpriteAtlas:
   - shop_b
   - res_pn
   - main_b
+  - daily_task_b
   - summon_b
   - main_bg
   - dungeon_b

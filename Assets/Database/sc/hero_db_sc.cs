@@ -7,46 +7,10 @@ public class hero_db_sc : ScriptableObject
 {
     public List<Hero_Stat> _heroes_stat;
     public List<Hero_Sprite> _heroes_sprite;
+    public Hero_Grow_Stat _hero_grow_stat;
 
     public Rare_Art _rare_art;
 
-
-    public Sprite Get_Rare_Art(string rare)
-    {
-        switch (rare) 
-        {
-            case "b": return _rare_art._b;
-            case "a": return _rare_art._a;
-            case "s": return _rare_art._s;
-            case "ss": return _rare_art._ss;
-        }
-
-        return null;
-    }
-    public Hero_Stat Get_Hero_Stat(string name)
-    {
-        for (int i = 0; i < _heroes_stat.Count; i++)
-        {
-            if (_heroes_stat[i]._name == name)
-            {
-                return _heroes_stat[i];
-            }
-        }
-
-        return null;
-    }
-    public Hero_Sprite Get_Hero_Sprite(string name)
-    {
-        for (int i = 0; i < _heroes_sprite.Count; i++)
-        {
-            if (_heroes_sprite[i]._name == name)
-            {
-                return _heroes_sprite[i];
-            }
-        }
-
-        return null;
-    }
 }
 
 [Serializable]
@@ -70,12 +34,18 @@ public class Hero_Stat
     public int _armor;
     public int _lifesteal;
     public int _regeneration;
-    public int _recovering_power;
     public int _healing_power;
-    public int _element_damage;
-    public int _element_resistance;
+    public int _recovering_power;
     public int _crit_resistance;
     public int _crit_defense;
+    public int _element_damage;
+    public int _element_resistance;
+
+
+    public string _aa_name;
+    public string _sk_name;
+    public string _ul_name;
+    public string _ps_name;
 
 
     public int _sk_cd;
@@ -85,30 +55,65 @@ public class Hero_Stat
     public int _ul_pcd;
     public int _ps_pcd;
 }
-
 [Serializable]
 public class Hero_Sprite
 {
     public string _name;
 
     public Sprite _art;
+    public Sprite _icon;
 
     public Sprite _aa_art;
     public Sprite _sk_art;
     public Sprite _ul_art;
     public Sprite _ps_art;
-
-    public Sprite _idle;
-    public Sprite _hit;
-    public Sprite _pain;
-    public Sprite _action;
-    public Sprite _die;
 }
 [Serializable]
 public class Rare_Art
 {
-    public Sprite _b;
-    public Sprite _a;
-    public Sprite _s;
-    public Sprite _ss;
+    public Sprite _c;
+    public Sprite _n;
+    public Sprite _r;
+    public Sprite _e;
+    public Sprite _l;
+
+    public Sprite _c_back;
+    public Sprite _n_back;
+    public Sprite _r_back;
+    public Sprite _e_back;
+    public Sprite _l_back;
+}
+[Serializable]
+public class Hero_Grow_Stat
+{
+    public int _first_hero_lv_up_exp_cost;
+    public int _next_hero_lv_up_exp_multiplier;
+
+    public int _sk_evry_lv_up_fragment_cost;
+
+
+    public Pve_Stat_Bonus_Cost _pve_stat_bonus_cost;
+}
+[Serializable]
+public class Pve_Stat_Bonus_Cost
+{
+    public int _health;
+    public int _attack;
+    public int _defense;
+    public int _speed;
+    public int _crit_chance;
+    public int _crit_damage;
+    public int _accuracy;
+    public int _resistance;
+
+    public int _pierce;
+    public int _armor;
+    public int _lifesteal;
+    public int _regeneration;
+    public int _healing_power;
+    public int _recovering_power;
+    public int _crit_resistance;
+    public int _crit_defense;
+    public int _element_damage;
+    public int _element_resistance;
 }

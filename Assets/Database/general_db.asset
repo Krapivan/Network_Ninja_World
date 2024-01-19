@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba3b75466442d243838aeef69367a24, type: 3}
+  m_Name: general_db
+  m_EditorClassIdentifier: 
+  _task:
+    _name:
+    - level up rune
+    - level  up hero
+    - play arena
+    - play rune dungeon
+    - play element mark dungeon
+    - play story
+    - play tower
+    - summon
+    _need_score: 0300000003000000030000000300000003000000030000000300000001000000
+    _box_reward:
+    - _item_name:
+      - coin
+      - chakra
+      _item_count: 102700000f000000
+    - _item_name:
+      - coin
+      - element mark
+      _item_count: 204e00000a000000
+    - _item_name:
+      - element mark
+      - ramen
+      _item_count: 1400000002000000
+    - _item_name:
+      - gold
+      - auto ticket
+      _item_count: 4b0000000a000000
+    - _item_name:
+      - gold
+      - scroll
+      _item_count: 4b00000002000000
+  _new_user_general_db_setting:
+    _user_resource:
+      _money: 0
+      _gold: 0
+      _coin: 0
+      _energy_now: 30
+      _energy_mx: 30
+      _item:
+        _ramen: 0
+        _chakra: 0
+        _auto_ticket: 0
+        _scroll: 0
+        _element_mark_name:
+        - fire
+        - wind
+        - lightning
+        - earth
+        - water
+        _element_mark: 0000000000000000000000000000000000000000
+    _user_task:
+      _comp_task_count: 0
+      _name:
+      - level up rune
+      - level  up hero
+      - play arena
+      - play rune dungeon
+      - play element mark dungeon
+      - play story
+      - play tower
+      - summon
+      _score: 0000000000000000000000000000000000000000000000000000000000000000
+      _box_take: 0000000000

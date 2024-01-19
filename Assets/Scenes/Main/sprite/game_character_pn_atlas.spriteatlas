@@ -48,6 +48,24 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 0b0456003315f4941a82cac5ea757319: 21300000
+    - c8ee4fb1c13beda48bff101d0d4d38f9: 21300000
+    - d3013983cc9e1d546bcbc47e246254bb: 21300000
+    - 2ea6c9b45a22c8a43a81dd7a4f26568f: 21300000
+    - 9a6d3de45b2e4c64495e5b12153e4e8a: 21300000
+    - 3bf6bfc5174f1264a988b2f1691c8d48: 21300000
+    - b1c39a3618b3b444fa6065f79b263e5f: 21300000
+    - 9bdcf977cd5d91943bc8ec5dc058b592: 21300000
+    - 63fc77f853dc76848b79832004f78843: 21300000
+    - 14db6c29d7c21114d9e707fcc350cc2e: 21300000
+    - 831cb559c7e923c48b8eb2ea4a77e934: 21300000
+    - 5c6b8a2ad81c4cd40807c63157e62694: 21300000
+    - 31efca8ae38feeb44b5f095685112e6d: 21300000
+    - af3d75bb0cea9134f9a76c02fa20ab87: 21300000
+    - 952d3ddd869860747b1d6215445ac050: 21300000
+    - 88cfba6ecf1425e4abf70ec9a2d90d1b: 21300000
+    - b30cc7ff20f704a4caa5b6cfc3cf8dbf: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 0b0456003315f4941a82cac5ea757319, type: 3}
@@ -82,9 +100,9 @@ SpriteAtlas:
   - har_b
   - rune_b
   - scroll_pn
-  - sk_bord(220x220)
+  - sk_border_off
   - har_pn
-  - sk_bord_active(220)
+  - sk_border_on
   m_RenderDataMap: {}
   m_Tag: game_character_pn_atlas
   m_IsVariant: 0

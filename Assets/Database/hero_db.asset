@@ -16,24 +16,28 @@ MonoBehaviour:
   - _name: Naruto [Genin]
     _rare: b
     _el: wind
-    _health: 0
-    _attack: 0
-    _defense: 0
-    _speed: 0
-    _crit_chance: 0
-    _crit_damage: 0
+    _health: 8400
+    _attack: 472
+    _defense: 615
+    _speed: 97
+    _crit_chance: 15
+    _crit_damage: 150
     _accuracy: 0
-    _resistance: 0
+    _resistance: 15
     _pierce: 0
     _armor: 5
     _lifesteal: 0
     _regeneration: 5
-    _recovering_power: 0
     _healing_power: 0
-    _element_damage: 0
-    _element_resistance: 5
+    _recovering_power: 100
     _crit_resistance: 5
     _crit_defense: 10
+    _element_damage: 0
+    _element_resistance: 5
+    _aa_name: Combo Naruto
+    _sk_name: Shadow Clones
+    _ul_name: Multiple Shadow Clones
+    _ps_name: Ero Jutsu
     _sk_cd: 0
     _ul_cd: 0
     _ps_cd: 0
@@ -43,17 +47,60 @@ MonoBehaviour:
   _heroes_sprite:
   - _name: Naruto [Genin]
     _art: {fileID: 21300000, guid: 0496e0f65aac02948a6dedcb69ee526d, type: 3}
+    _icon: {fileID: 21300000, guid: 99ed0fb455f6c904caf624cd1e508e40, type: 3}
     _aa_art: {fileID: 21300000, guid: babf1613a17ec2a4b9bd196364d1a418, type: 3}
     _sk_art: {fileID: 21300000, guid: 0fea1e52271e45448800f474314fbc62, type: 3}
     _ul_art: {fileID: 21300000, guid: c526bff8dfa690a4898b7a4cf7dbecc9, type: 3}
     _ps_art: {fileID: 21300000, guid: b2f682186b7fee84187fbcdc55761041, type: 3}
-    _idle: {fileID: 21300000, guid: 1440cdacfef77644faf7165f7ad509e2, type: 3}
-    _hit: {fileID: 21300000, guid: cfbbd69349ae9c64aa0b7fff8e2d5362, type: 3}
-    _pain: {fileID: 21300000, guid: f70134e8c6b213146b26ba2c0274d4fe, type: 3}
-    _action: {fileID: 21300000, guid: 4cbd08106426c5e4a9b84b838d2834a1, type: 3}
-    _die: {fileID: 21300000, guid: 0d4eecee8dbfc1a4b8bcc9e8419e787a, type: 3}
+  _hero_grow_stat:
+    _first_hero_lv_up_exp_cost: 300
+    _next_hero_lv_up_exp_multiplier: 30
+    _sk_evry_lv_up_fragment_cost: 10
+    _pve_stat_bonus_cost:
+      _health: 0
+      _attack: 0
+      _defense: 0
+      _speed: 0
+      _crit_chance: 0
+      _crit_damage: 0
+      _accuracy: 0
+      _resistance: 0
+      _pierce: 0
+      _armor: 0
+      _lifesteal: 0
+      _regeneration: 0
+      _healing_power: 0
+      _recovering_power: 0
+      _crit_resistance: 0
+      _crit_defense: 0
+      _element_damage: 0
+      _element_resistance: 0
   _rare_art:
-    _b: {fileID: 21300000, guid: 39e51747bb8f08c4fb0df074ef3086f5, type: 3}
-    _a: {fileID: 21300000, guid: 68494fbf64e20e347a9057ac670415b2, type: 3}
-    _s: {fileID: 21300000, guid: 78266b60c44209b4788c4e7db7ea97bf, type: 3}
-    _ss: {fileID: 21300000, guid: 41b642a7ca21e0d4998bed1e833a7d19, type: 3}
+    _c: {fileID: 0}
+    _n: {fileID: 0}
+    _r: {fileID: 0}
+    _e: {fileID: 0}
+    _l: {fileID: 0}
+    _c_back: {fileID: 0}
+    _n_back: {fileID: 0}
+    _r_back: {fileID: 0}
+    _e_back: {fileID: 0}
+    _l_back: {fileID: 0}
+  _new_user_hero_stat:
+    _name: any
+    _lv: 0
+    _exp: 0
+    _exp_need: 300
+    _star: 1
+    _ev_star: 0
+    _aa_lv: 0
+    _sk_lv: 0
+    _ul_lv: 0
+    _ps_lv: 0
+    _rune_1_id: 0
+    _rune_2_id: 0
+    _rune_3_id: 0
+    _rune_4_id: 0
+    _rune_5_id: 0
+    _rune_6_id: 0
+    _fragments: 0

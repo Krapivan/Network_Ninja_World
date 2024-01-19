@@ -12,4 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263d4ecb06e6cdc4f8c3819a2c93d3b2, type: 3}
   m_Name: user_hero_db
   m_EditorClassIdentifier: 
-  _hero: []
+  _hero_db: {fileID: 11400000, guid: 675d84c25a9db5249b1028c97cfe6371, type: 2}
+  _user_rune_db: {fileID: 11400000, guid: 7f3c743996a9b1d41ba4f8fa8467975b, type: 2}
+  _heroes:
+  - _name: Naruto [Genin]
+    _lv: 1
+    _exp: 0
+    _exp_need: 300
+    _star: 1
+    _ev_star: 0
+    _aa_lv: 1
+    _sk_lv: 1
+    _ul_lv: 1
+    _ps_lv: 1
+    _runes_id: 
+    _duplicate: 0
